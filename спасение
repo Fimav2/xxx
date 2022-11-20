@@ -1,0 +1,10 @@
+1long long my_abs(long long number){
+    if (number>=0){
+        return number;
+    } 
+    else {
+        return number * -1;
+    }
+}
+
+2 number = my_abs(number);
